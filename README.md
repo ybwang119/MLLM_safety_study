@@ -19,7 +19,7 @@ cd MLLM_safety_study
 Therefore, we do not present explicit `requirement.txt` for environment creating.
 ### Datasets and Models
 
-It is okay to download the related data following the instrution in [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA). In addition, we also present a dataset bundle in huggingface, including LLaVA-Med, vizwiz, vg, scienceqa, coco, ocr-vqa, textvqa, MM-SafetyBench, XSTest.
+It is okay to download the related data following the instrution in [LLaVA-v1.5](https://github.com/haotian-liu/LLaVA). In addition, we also present a dataset bundle in [huggingface](https://huggingface.co/datasets/palpit/MLLM-Safety-Study), including LLaVA-Med, vizwiz, vg, scienceqa, coco, ocr-vqa, textvqa, MM-SafetyBench, XSTest.
 
 For finetuning dataset arrangement, we utilize `mix_rejection_data.py` to mix LLaVA-Med data with the original instruct tuning data, in which we change the replies. 
 
@@ -104,7 +104,7 @@ Similarly, in LLaMA-Factory we modify `LLaMA-Factory/src/llamafactory/data/proce
 
 ## Contact
 
-If you have any question, feel free to contact 📫ybwang119@gmail.com.
+If you have any question, feel free to contact 📫ybwang119@gmail.com. 
 
 
 
