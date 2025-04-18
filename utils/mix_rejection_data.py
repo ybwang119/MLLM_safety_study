@@ -20,7 +20,7 @@ def save_list_to_json(data_list, file_path):
         json.dump(data_list, file, ensure_ascii=False, indent=4)
 
 def main():
-    parser = argparse.ArgumentParser(description="先选拒绝，再选正常")
+    parser = argparse.ArgumentParser(description="Put rejection data in file1")
 
     parser.add_argument('--file1',  default="", help="dir for the first json file")
     parser.add_argument('--file2',  default='',help="dir for the second json file")

@@ -90,6 +90,8 @@ Similarly, in LLaMA-Factory we modify `LLaMA-Factory/src/llamafactory/data/proce
   cd LLaVA
   ./scripts/v1_5/finetune_task_lora.sh
   ```
+
+  Our evaluation code is not structured well :sob: Here we only provide some files for reference.
 ## Citation
 ```latex
 @inproceedings{wang2025do,

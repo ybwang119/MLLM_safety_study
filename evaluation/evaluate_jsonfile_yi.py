@@ -96,7 +96,7 @@ def main(args):
     for (imagedir, text_prompt, gt) in tzip(dataset.image, dataset.user_prompt, dataset.gt_answer):
         if imagedir:
             try:
-                image=load_image("./mPLUG-Owl/mPLUG-Owl2/playground/data/"+imagedir)
+                image=load_image("xxxx/playground/data/"+imagedir)
             except FileNotFoundError:
                 image = None
                 print("image not loaded! skip to next sample!")
